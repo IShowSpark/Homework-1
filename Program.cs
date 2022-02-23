@@ -38,8 +38,8 @@ namespace Homework
 
             Dictionary<string, string> dict = new Dictionary<string, string>();
 
-            List<string> country = new List<string> { "Estonia", "Russia", "England", "Germany", "Finland" };
-            List<string> capital = new List<string> { "Tallinn", "Moscow", "London", "Berlin", "Helsinki" };
+            List<string> capital = new List<string> { "Tallinn", "Valga", "Viljandi ", "Võru", "Ida-Viru" };
+            List<string> country = new List<string> { "Tallinn", "Valga", "Viljandi ", "Võru", "Ida-Viru" };
             bool wantTo = true;
             int randInt = 0;
             double score = 0;
