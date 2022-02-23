@@ -60,18 +60,18 @@ namespace Homework
                     string input = Console.ReadLine();
                     if (dict.ContainsKey(input))
                     {
-                        Console.WriteLine("Pair of " + input + " is " + dict[input]);
+                        Console.WriteLine("This is " + input + " is " + dict[input]);
                     }
                     else if (!dict.ContainsKey(input))
                     {
-                        Console.WriteLine("do you want to add new words? yes - 1, no - 2");
+                        Console.WriteLine("you want add new words? yes - 1, no - 2");
                         answer = int.Parse(Console.ReadLine());
                         if (answer == 1)
                         {
-                            Console.WriteLine("Enter new country please");
+                            Console.WriteLine("Enter new country");
                             string new1 = Console.ReadLine();
 
-                            Console.WriteLine("Enter new capital please");
+                            Console.WriteLine("Enter new capital");
                             string new2 = Console.ReadLine();
                             dict.Add(new1, new2);
                             dict.Add(new2, new1);
